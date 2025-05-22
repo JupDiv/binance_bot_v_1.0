@@ -21,3 +21,8 @@ for name, path in scripts.items():
         subprocess.Popen([VENV_PYTHON, path], stdout=log, stderr=log)
 
 print("✅ Усі боти запущено у фоні.")
+
+
+import time
+while True:
+    time.sleep(60)
