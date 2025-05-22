@@ -1,0 +1,48 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Віртуальне середовище
+venv/
+.env
+*.env
+
+# Python кеші та компіляція
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Логи
+logs/
+*.log
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# IDE файли
+.vscode/
+.idea/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Бінарні файли
+*.so
+
+# Токени та ключі
+*.pem
+*.key
+
+# Бази даних / дампи
+*.sqlite3
+*.db
+*.bak
+*.sql
+*.dump
+
+# PyInstaller
+*.spec
+
+# Pytest
+.cache/
+.pytest_cache/
